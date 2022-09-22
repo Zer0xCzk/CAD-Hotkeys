@@ -1,15 +1,15 @@
-scroll = 0
+scroll := 0
+oldscroll := 1
 
-while (true)
+^WheelUp::scroll += 1
+^WheelDown::scroll -= 1
+
+If (scroll != oldscroll)
 {
-	if (Wheelup)
-	{
-		scroll += 1
-		MsgBox, s+
-	}
-	if (WheelDown)
-	{
-		scroll -= 1
-		MsgBox, s-
-	}
+	Send, clayer
+	Send, {Enter}
+	Send, %scroll%
+	Send, {Enter}
+	oldscroll := scroll
+	return
 }
