@@ -1,21 +1,19 @@
-#SingleInstance
-
-scroll := 0
-oldscroll := 0
-
-If (%scroll% != %oldscroll%)
-{
-	Send, clayer
-	Send, {Enter}
-	Send, %scroll%
-	Send, {Enter}
-	%oldscroll% := %scroll%
-}
+Scroll := 0
+Old := 0
 
 ^WheelUp::
-scroll += 1
-return
+Scroll += 1
+break
 ^WheelDown::
-scroll -= 1
-return
+Scroll -= 1
+break
+
+if (Scroll != %Old%)
+{
+	Send clayer
+	Send {Enter}
+	Send %Scroll%
+	Send {Enter}
+	return
+}
 
