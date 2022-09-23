@@ -1,15 +1,21 @@
+#SingleInstance
+
 scroll := 0
-oldscroll := 1
+oldscroll := 0
 
-^WheelUp::scroll += 1
-^WheelDown::scroll -= 1
-
-If (scroll != oldscroll)
+If (%scroll% != %oldscroll%)
 {
 	Send, clayer
 	Send, {Enter}
 	Send, %scroll%
 	Send, {Enter}
-	oldscroll := scroll
-	return
+	%oldscroll% := %scroll%
 }
+
+^WheelUp::
+scroll += 1
+return
+^WheelDown::
+scroll -= 1
+return
+
