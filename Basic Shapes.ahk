@@ -1,19 +1,21 @@
-^+L::
+; Lets you quickly go between the 4 most important shapes
+
+^+L:: ;Ctrl + Shift + L
 Send, line
 Send, {Enter}
 return
 
-^+C::
+^+C:: ;Ctrl + Shift + C
 Send, circle
 Send, {Enter}
 return
 
-^+P::
+^+P:: ;Ctrl + Shift + P
 Send, polyline
 Send, {Enter}
 return
 
-^+A::
+^+A:: ; Ctrl + Shift + A
 Send, arc
 Send, {Enter}
 return
