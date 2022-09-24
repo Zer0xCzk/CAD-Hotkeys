@@ -13,4 +13,6 @@ Next, you want to make a Script folder, I made mine in the AutoHotkey folder, bu
 
 Then, just download the scripts here and set the files to open with AutoHotkey
 
+If you want to know what each file does, open it in a text editor and read the first lines that start with ";"
+
 If you have any suggestions, leave them wherever you want.
