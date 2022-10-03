@@ -1,7 +1,7 @@
 # CAD-Hotkeys
 Tired of AutoCAD being useless by not having any usefull hotkeys? No? 
 Don't care + didn't ask + L bozo.
-This is here to stay, so far it's only layer hotkeys, if you have any sugestions message them to me
+This is here to stay, so far it's only layer and shape hotkeys, if you have any sugestions message them to me
 
 HOW TO GET IT RUNNING
 
