@@ -9,10 +9,18 @@ First, download AutoHotkey. I'll assume you downloaded and unzipped a .zip
 
 Here: https://www.autohotkey.com/download/
 
+## Option 1
+
 Next, you want to make a Script folder, I made mine in the AutoHotkey folder, but you can make yours anywhere
 
 Then, just download the scripts here and set the files to open with AutoHotkey
 
 If you want to know what each file does, open it in a text editor and read the first lines that start with ";"
+
+## Option 2
+
+Download the most recent release
+
+Set the .exe files to run with autohotkey
 
 If you have any suggestions, leave them wherever you want.
