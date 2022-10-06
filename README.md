@@ -23,4 +23,8 @@ Download the most recent release
 
 Set the .exe files to run with autohotkey
 
+##
+
+Ultimately this is just me playing developer, this repo basically only exsists so that I can figure out how all this works
+
 If you have any suggestions, leave them wherever you want.
