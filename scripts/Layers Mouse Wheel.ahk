@@ -3,18 +3,21 @@
 
 Scroll := 0
 
+Layer(x)
+{
+	Send, clayer
+	Send, {Enter}
+	Send, "%x%"
+	Send, {Enter}
+	return
+}
+
 ^WheelUp:: ;Ctrl + Scrolling wheel up
 Scroll += 1
-Send, clayer
-Send, {Enter}
-Send, "%Scroll%"
-Send, {Enter}
+Layer(Scroll)
 return
 
 ^WheelDown:: ;Ctrl + Scrolling wheel down
 Scroll -= 1
-Send, clayer
-Send, {Enter}
-Send, "%Scroll%"
-Send, {Enter}
+Layer(Scroll)
 return
